@@ -1,0 +1,19 @@
+# Logs
+*.log
+
+# 依赖包 (绝对不能传!)
+node_modules/
+
+# 打包生成的产物 (绝对不能传!)
+dist/
+dist-ssr/
+build/
+
+# 环境变量文件 (保护你的 API Key)
+.env
+.env.local
+.env.*.local
+
+# 操作系统生成的垃圾文件
+.DS_Store
+Thumbs.db

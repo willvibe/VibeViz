@@ -12,6 +12,7 @@
     "echarts": "^5.4.3",
     "echarts-gl": "^2.0.9",
     "lodash": "^4.17.21",
+    "lucide-react": "^0.576.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "xlsx": "^0.18.5"

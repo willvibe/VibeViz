@@ -5,8 +5,8 @@ import RainEffect from './components/RainEffect';
 import ChartPreview from './components/ChartPreview';
 import { callGemini } from './utils/geminiAPI';
 import { isStrictNumber, parseNumber, parseDate, round2, calcStd, calcQuantile, cleanRegionName, formatCompactNumber } from './utils/statMath';
-
-import DataEngineWorker from './workers/dataEngine.worker.js?worker&inline';
+import { Key, CloudRain, Github } from 'lucide-react'; // 加上 Github
+import DataEngineWorker from './workers/dataEngine.worker.js?worker';
 
 const CHART_TYPES = [
     { id: 'bar', zh: '柱状图 (Bar)', en: 'Bar Chart' }, 
@@ -750,6 +750,15 @@ const App = () => {
                         </div>
                         <button onClick={toggleRainState} title={rainTitle} className={`flex items-center justify-center flex-shrink-0 w-[42px] h-[42px] rounded-xl transition-all cursor-pointer shadow-sm border backdrop-blur-md ${rainState > 0 ? 'bg-blue-100/80 text-blue-600 border-blue-300/50 shadow-inner' : 'bg-white/70 text-slate-500 border-white/50 hover:text-cyan-500 hover:bg-white/90'}`}><Icons.CloudRain /></button>
                         <button onClick={() => toggleLang(lang === 'en' ? 'zh' : 'en')} className="flex items-center justify-center flex-shrink-0 w-[42px] h-[42px] font-bold text-sm rounded-xl transition-all cursor-pointer shadow-sm border border-white/50 backdrop-blur-md bg-white/70 text-slate-700 hover:bg-white/90" title={t('切换语言', 'Toggle Language')}>{lang === 'en' ? 'EN' : '中'}</button>
+						<a
+    href="https://github.com/willvibe/VibeViz"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Star on GitHub"
+    className="flex items-center justify-center flex-shrink-0 w-[42px] h-[42px] font-bold text-sm rounded-xl transition-all cursor-pointer shadow-sm border border-white/50 backdrop-blur-md bg-white/70 text-slate-700 hover:bg-white/90"
+  >
+    <Github size={18} strokeWidth={2} />
+  </a>
                     </div>
                 </header>
 

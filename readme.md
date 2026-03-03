@@ -15,14 +15,15 @@
 
 ---
 
-**VibeViz** 是一款受 "**Vibe Coding**" 理念启发的**轻量化智能数据可视化引擎**。
+**VibeViz** 是一款**轻量化**智能**数据可视化引擎**
 
 **无需付费**，**无需注册**，**无需下载**，**无需网络**，**无需代码**,**10分掌握15种图表制作**
 
 **Web Worker 极限算力**、**Gemini 3.0 智能洞察** 、**沉浸式雨天模拟**、**音乐频谱律动**
 
-![image-20260302233127049](C:%5CUsers%5Cxyz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20260302233127049.png)
 
+
+<img width="1866" height="878" alt="image-20260302233127049" src="https://github.com/user-attachments/assets/a5033428-1f2e-4db2-8b8b-4aad979c08d8" />
 
 
 ## ✨ 核心黑科技 (Core Features)
@@ -51,11 +52,14 @@
 
 ## 📸 界面&效果预览 (Screenshots)
 
-![image-20260303101901915](C:%5CUsers%5Cxyz%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20260303101901915.png)
+<img width="1315" height="874" alt="image-20260303101901915" src="https://github.com/user-attachments/assets/c3b224d2-bb52-45e8-bfc4-d80cc0882287" />
 
 
 
-![image-20260303003659962](C:%5CUsers%5Cxyz%5CDesktop%5Cimage-20260303003659962.png)
+
+
+<img width="1267" height="744" alt="image-20260303003659962" src="https://github.com/user-attachments/assets/bd46800b-acd7-4f8e-a543-19913431a792" />
+
 
 
 

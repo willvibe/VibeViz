@@ -23,11 +23,9 @@
 
 
 
-<<<<<<< HEAD
-<img width="1866" height="878" alt="image-20260302233127049" src="https://github.com/user-attachments/assets/a5033428-1f2e-4db2-8b8b-4aad979c08d8" />
-=======
+
 <img width="" height="" alt="image-20260302233127049" src="https://github.com/user-attachments/assets/a5033428-1f2e-4db2-8b8b-4aad979c08d8" />
->>>>>>> 57b2791055232542456a7ae39605b463ff1f185a
+
 
 
 ## ✨ 核心黑科技 (Core Features)
@@ -56,21 +54,17 @@
 
 ## 📸 界面&效果预览 (Screenshots)
 
-<<<<<<< HEAD
-<img width="1315" height="874" alt="image-20260303101901915" src="https://github.com/user-attachments/assets/c3b224d2-bb52-45e8-bfc4-d80cc0882287" />
-=======
+
 <img width="" height="" alt="image-20260303101901915" src="https://github.com/user-attachments/assets/c3b224d2-bb52-45e8-bfc4-d80cc0882287" />
->>>>>>> 57b2791055232542456a7ae39605b463ff1f185a
 
 
 
 
 
-<<<<<<< HEAD
-<img width="1267" height="744" alt="image-20260303003659962" src="https://github.com/user-attachments/assets/bd46800b-acd7-4f8e-a543-19913431a792" />
-=======
+
+
 <img width="" height="" alt="image-20260303003659962" src="https://github.com/user-attachments/assets/bd46800b-acd7-4f8e-a543-19913431a792" />
->>>>>>> 57b2791055232542456a7ae39605b463ff1f185a
+
 
 
 

@@ -1,18 +1,11 @@
 import { useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
 import * as echarts from 'echarts';
 import 'echarts-gl';
+import chinaGeoJson from '../assets/chinaMap.json';
 
-
-// 自动从阿里云 DataV 官方接口拉取最新的中国地图 GeoJSON
 if (!echarts.getMap('china')) {
-    fetch('https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json')
-        .then(res => res.json())
-        .then(geoJson => {
-            // 将地图数据注册为 'china'
-            echarts.registerMap('china', geoJson);
-            console.warn('✅ 中国地图底层数据加载成功！');
-        })
-        .catch(err => console.error('地图加载失败:', err));
+    echarts.registerMap('china', chinaGeoJson);
+    console.warn('✅ 中国地图底层数据加载成功！');
 }
 
 const ChartPreview = forwardRef(function ChartPreview({ option }, ref) {
